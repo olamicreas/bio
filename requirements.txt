@@ -57,7 +57,7 @@ MarkupSafe==1.1.1
 msgpack==0.6.2
 mysql-connector==2.2.9
 mysql-connector-python==8.0.30
-mysql-connector-python-rf==2.2.2
+
 mysqlclient==2.1.1
 packaging==20.3
 parso==0.8.1

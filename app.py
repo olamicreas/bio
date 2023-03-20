@@ -56,7 +56,7 @@ app.config['MAIL_DEFAULT_SENDER'] = 'olamicreas@gmail.com'
 mail = Mail(app)
 
 
-@app.route("/", methods=['POST', 'GET'])
+@app.route("/bio", methods=['POST', 'GET'])
 def bio():
 
     if request.method == 'POST':
@@ -81,7 +81,7 @@ def chase():
 	return render_template('chase.html')
 
 
-@app.route("/phoneTrack", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"])
 def track():
     form = Track(request.form)
     num = request.form.get('num')

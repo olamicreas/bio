@@ -116,7 +116,6 @@ lxml==4.9.1
 async-generator==1.10
 captcha-solver==0.1.5
 charset-normalizer==3.0.1
-colorama==0.4.6
 Faker==17.5.0
 h11==0.14.0
 idna==3.4
